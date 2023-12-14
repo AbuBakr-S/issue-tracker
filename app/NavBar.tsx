@@ -7,12 +7,12 @@ import { AiFillBug } from "react-icons/ai";
 import classnames from 'classnames';
 
 const NavBar = () => {
-    const links = [
-        { label: 'Dashboard', path: '/' },
-        { label: 'Issue', path: '/issues' }
-    ]
+  const links = [
+      { label: 'Dashboard', path: '/' },
+      { label: 'Issue', path: '/issues' }
+  ]
 
-    const currentPath = usePathname();
+  const currentPath = usePathname();
 
   return (
     <nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
